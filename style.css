@@ -1,0 +1,424 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #0f0f10;
+    color: white;
+    font-family: 'PT Serif', serif;
+}
+
+.main-box {
+    display: flex;
+
+}
+
+.left-nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-btn {
+    border-radius: 10px;
+    background-color: #1e1e21;
+    /* border: 2px solid #f10404; */
+    padding: 15px 40px;
+    margin: 20px;
+}
+
+.left-nav ul li {
+    list-style: none;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 25px;
+}
+
+.left-content p {
+    width: 65%;
+    font-size: 15px;
+    margin: 10px 0 0 0;
+    line-height: 2;
+}
+
+.left-content h1 {
+    font-size: 60px;
+    margin: 10px 0 0 0;
+    font-weight: 900;
+}
+
+.left-content h3 {
+    margin: 30px 0;
+    font-weight: 900;
+}
+
+.onEar {
+    margin: 50px 0 0 80px;
+}
+
+.left-content-btn {
+    margin: 20px 0 0 0;
+    padding: 15px 50px;
+    background-color: #1e1e21;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    border: none;
+
+}
+
+.left-content-btn b {
+    margin: 0 0 0 10px;
+}
+
+.shoppingBag {
+    margin: 0 10px 0 0;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    justify-self: center;
+}
+
+.mainImage {
+    margin: 0 0 0 0px;
+    height: 420px;
+    width: 210px;
+
+}
+
+.beatsLogo {
+    height: 30px;
+    width: 30px;
+    margin: 50px 0 0 200px;
+
+}
+
+.buy-logo {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 100px;
+}
+
+/* frame 2  */
+
+
+.specs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px 0 80px 0;
+}
+
+.main-box2-content {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 0 0;
+}
+
+.main-box2-content-right {
+    line-height: 2;
+
+}
+
+.main-box2-content-right p {
+    color: #a1bcc4;
+    font-weight: bold;
+}
+
+.main-box2-content-left {
+    margin: 0 0 0 100px;
+}
+
+.specsImage {
+    height: 490px;
+    width: 350px;
+    margin-top: 20px 0 0 0;
+}
+
+.bluetooth-box {
+    margin: 0px 0 20px 45px;
+}
+
+.mic-box {
+    margin: 20px 0 20px 45px;
+    width: 150px;
+
+}
+
+.battery-box {
+    margin: 20px 0 20px 0px;
+
+}
+
+.load-box {
+    margin: 20px 0 20px 0px;
+
+}
+
+/* frame 2 end  */
+/* ------------------------- */
+/* frame 3 start  */
+.case {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+}
+
+.main-box3-content {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+}
+
+.main-box3-content-left {
+    width: 270px;
+    margin: 130px 30px;
+    line-height: 2;
+
+}
+
+.main-box3-content-left p {
+    color: #a1bcc4;
+
+}
+
+.box3-btn {
+    margin: 40px 0px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1e1e21;
+    align-items: center;
+    display: flex;
+}
+
+.group {
+    margin: 0 20px 0 0;
+}
+
+.box3-btn span {
+    font-size: 15px;
+
+}
+
+.caseImage {
+    margin: 0 50px 0 0;
+    height: 450px;
+}
+
+/* frame 3 end  */
+/* -------------------  */
+/* frame 4 start  */
+.main-box-4 {
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.main-box4-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e21;
+    border-radius: 20px;
+    width: 80vw;
+    height: 50vh;
+    /* border: 2px solid red; */
+}
+
+.main-box4-right {
+    margin: 0 50px 0 0;
+    width: 300px;
+    line-height: 1.6;
+    background-color: #1e1e21;
+}
+
+.main-box4-right h2 {
+    width: 300px;
+    background-color: #1e1e21;
+}
+
+.main-box4-right p {
+    margin: 20px 0 20px 0;
+    color: #a1bcc4;
+    background-color: #1e1e21;
+}
+
+.main-box4-btn {
+    margin: 15px 0 0 0;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box4-btn b {
+    font-weight: bolder;
+    margin: 0 0 0 10px;
+}
+
+.main-box4-left {
+    background-color: transparent;
+
+}
+
+.buyNowSectionImage {
+    background-color: transparent;
+}
+
+/* ----------- frame 4 end --------  */
+/* ------------------------------  */
+/* grame 5 start ===========  */
+.main-box-5{
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+}
+.main-box-5-content{
+    margin: 100px 0 0 70px;
+}
+.main-box-5-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.productLogo{
+    width: 250px;
+}
+.main-box-5-content-1{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+.main-box-5-content-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 500px 0; */
+    margin: 100px 0;
+}
+.image{
+    width: 75px;
+    height: 100px;
+    position: absolute;
+    z-index: 100;
+    top: -40px;
+    left: 28px;
+   
+}
+.card{
+    position: relative;
+    width: 130px;
+    height: 130px;
+    background: #181a1b;
+    border-radius: 8px;
+    border-radius: 10px;
+    margin: 0 30px;
+}
+.detail{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px 15px;
+    
+}
+.detail p{
+    font-size: 12px;
+}
+.detail p span{
+    color: #bdc0c2;
+}
+.detail div{
+    background: #0a0a0b;
+    border-radius: 8px;
+    padding: 2px 6px;
+}
+.detail img div{
+    width: 13px;
+    height: 13px;
+}
+.image,
+.card p,
+.card span,
+.card img,
+.card div {
+    background-color: transparent;
+}
+.card1{
+    position: relative;
+    width: 410px;
+    height: 130px;
+    /* background: #181a1b; */
+    border-radius: 8px;
+}
+/* ------------------- end-----------  */
+/* ------------------------------  */
+/* -------------- footer------------  */
+.main-box-6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0 50px 0;
+}
+.beatsLogo-1{
+    margin: 0 0 120px 100px;
+    height: 25px;
+    width: 25px;
+}
+.product ul li ,a{
+    list-style: none;
+    text-decoration: none;
+    line-height: 2;
+    color: #bdc0c2;
+    font-size: 15px;
+}
+.support ul li{
+    list-style: none;
+}
+.email-area{
+    display: flex;
+    /* border: 2px solid red; */
+    padding: 15px 40px;
+    border-radius: 15px;
+    background-color: #1e1e21;
+    border: transparent;
+    
+}
+.email-area img{
+    margin: 0 10px;
+    border: transparent;
+    
+}
+.com{
+    display: flex;
+    background-color: black;
+    border: 2px solid red;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 0 0 0 5px;
+}
+input{
+    background-color: #1e1e21;
+    border: none;
+}
+.social{
+    margin: 30px 0; 
+}
+.social img{
+    margin: 0 10px;
+    height: 40px;
+}
+.arrow{
+    margin: 0 0 110px 0;
+}
